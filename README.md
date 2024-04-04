@@ -13,6 +13,18 @@ oc start-build bookbag --follow
 
 oc get route <- To get the URL to view the lab content
 ~~~~
+# update your ssh keys
+~~~~
+Update your SSH keys
+training RSA private key in ~/.ssh
+training RSA public key in ~/.ssh to load in secret
+Download virtctl on your laptop
+Create Fedora based VM
+Add SSH public key to secret
+Start VM
+virtctl -n mylab-bookbag ssh fedora@fedora01 --identity-file=~/.ssh/training
+~~~~
+
 
 SSH Private key
 ~~~~
