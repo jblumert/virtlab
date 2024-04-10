@@ -6,7 +6,13 @@
 ~~~~
 https://bookbag-user1.apps.66047385fe791f001e8f732e.cloud.techzone.ibm.com/workshop/01_welcome
 ~~~~
-# install Lab guide in cluster
+# install Lab guide in cluster (use your workstation or bastion node)
+
+## workstation setup, install cli tool "OC" 
+## log in to openshift cluster
+oc login -u kubeadmin -p <kubeadmin_password> --server https://api.<cluster url>:6443
+### example:
+oc login -u kubeadmin -p wrwer-w3dfsf-sdf3d --server api.66075cbd33dadd001d8d80bc.cloud.techzone.ibm.com:6443
 
 ~~~~
 oc new-project user1
@@ -16,6 +22,7 @@ git clone https://github.com/jeanchlopez/roadshow_ocpvirt_instructions.git
 cd roadshow_ocpvirt_instructions
 
 git checkout ibmtraining
+git pull
 
 oc process -f build-template.yaml -p NAME="bookbag" -p GIT_REPO="https://github.com/jeanchlopez/roadshow_ocpvirt_instructions.git" | oc apply -f -
 
