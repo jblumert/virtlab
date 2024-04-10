@@ -7,6 +7,8 @@ oc new-project user1
 
 git clone https://github.com/jeanchlopez/roadshow_ocpvirt_instructions.git
 
+cd roadshow_ocpvirt_instructions
+
 oc process -f build-template.yaml -p NAME="bookbag" -p GIT_REPO="https://github.com/jeanchlopez/roadshow_ocpvirt_instructions.git" | oc apply -f -
 
 oc start-build bookbag --follow
