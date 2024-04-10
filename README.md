@@ -10,9 +10,11 @@ https://bookbag-user1.apps.66047385fe791f001e8f732e.cloud.techzone.ibm.com/works
 
 ## workstation setup, install cli tool "OC" 
 ## log in to openshift cluster
-oc login -u kubeadmin -p <kubeadmin_password> --server https://api.<cluster url>:6443
+
+    oc login -u kubeadmin -p <kubeadmin_password> --server https://api.<cluster_url>:6443
 ### example:
-oc login -u kubeadmin -p wrwer-w3dfsf-sdf3d --server api.66075cbd33dadd001d8d80bc.cloud.techzone.ibm.com:6443
+
+    oc login -u kubeadmin -p wrwer-w3dfsf-sdf3d --server api.66075cbd33dadd001d8d80bc.cloud.techzone.ibm.com:6443
 
 ~~~~
 oc new-project user1
