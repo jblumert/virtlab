@@ -24,6 +24,7 @@ oc get route <- To get the URL to view the lab content
 
 # install OpenShift Operator in your cluster from the Operator Catalog
 # Once the operator is installed, create OpenShift Virtualization instance
+select "create hyperconverged"
 
 # update your ssh keys
 ~~~~
