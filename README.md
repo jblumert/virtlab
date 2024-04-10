@@ -6,8 +6,6 @@
 oc new-project user1
 
 oc process -f build-template.yaml -p NAME="bookbag" -p GIT_REPO="https://github.com/jeanchlopez/roadshow_ocpvirt_instructions.git" | oc apply -f -
-imagestream.image.openshift.io/bookbag created
-buildconfig.build.openshift.io/bookbag created
 
 oc start-build bookbag --follow
 
