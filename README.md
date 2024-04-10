@@ -1,6 +1,12 @@
 # virtlab
 
-#setup
+#setup 
+
+# lab guide
+~~~~
+https://bookbag-user1.apps.66047385fe791f001e8f732e.cloud.techzone.ibm.com/workshop/01_welcome
+~~~~
+# install Lab guide in cluster
 
 ~~~~
 oc new-project user1
