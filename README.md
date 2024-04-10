@@ -86,3 +86,22 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCjNsH6pfaKnus8/TmOkNOIw3z/5w4G1iyZ1km8jctW
 #Windows 2019 Server
 - https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US
 
+
+~~~~
+1	https://console-openshift-console.apps.66075cbd33dadd001d8d80bc.cloud.techzone.ibm.com/	zHNNW-43bdn-TC3Yn-JehdH	xyzwxFjb	ssh admin@api.66075cbd33dadd001d8d80bc.cloud.techzone.ibm.com -p 40222
+2	https://console-openshift-console.apps.66075d32698e33001e426c66.cloud.techzone.ibm.com/	gitDK-ga2hX-SSP4I-6LpTP	43PsPek8	ssh admin@api.66075d32698e33001e426c66.cloud.techzone.ibm.com -p 40222
+3	https://console-openshift-console.apps.66075de0ba4d77001e72389e.cloud.techzone.ibm.com/	yYbhh-p2a9K-5o98s-S3eYY	gmkhDwUw	ssh admin@api.66075de0ba4d77001e72389e.cloud.techzone.ibm.com -p 40222
+4	https://console-openshift-console.apps.660c79b5a2354c001edff36a.cloud.techzone.ibm.com/	LM9fx-qo3YF-cGhqK-MDgNu	TYsy27O3	ssh admin@api.660c79b5a2354c001edff36a.cloud.techzone.ibm.com -p 40222
+5	https://console-openshift-console.apps.660c7a283abee4001ecaab73.cloud.techzone.ibm.com/	vgeYf-FJEmE-yEiZ8-PuETX	T8ZUv4KL	ssh admin@api.660c7a283abee4001ecaab73.cloud.techzone.ibm.com -p 40222
+6	https://console-openshift-console.apps.660c7a957b1030001e66301c.cloud.techzone.ibm.com/	VUqq2-S39z6-D5fTn-P4Wr5	Uk5r397R	ssh admin@api.660c7a957b1030001e66301c.cloud.techzone.ibm.com -p 40222
+7	https://console-openshift-console.apps.660ca750a2354c001edff37e.cloud.techzone.ibm.com/	8AN8m-TvWxG-DW6pi-a3nYY	hWRtNIeW	ssh admin@api.660ca750a2354c001edff37e.cloud.techzone.ibm.com -p 40222
+8	https://console-openshift-console.apps.660ca7d0a2354c001edff37f.cloud.techzone.ibm.com/	WQBgE-uvYrm-Kqi4W-YPuID	iZB4nOeQ	ssh admin@api.660ca7d0a2354c001edff37f.cloud.techzone.ibm.com -p 40222
+9	https://console-openshift-console.apps.660cae5f3abee4001ecaab91.cloud.techzone.ibm.com/	6dZSj-J6KrW-tJUAr-9yAQj	tCPRJ4b8	ssh admin@api.660cae5f3abee4001ecaab91.cloud.techzone.ibm.com -p 40222
+10	https://console-openshift-console.apps.660cc8aa0a1be8001e6a990c.cloud.techzone.ibm.com/	tCpXQ-43ykW-sG2r3-bxNPx	iWrVtFOm	ssh admin@api.660cc8aa0a1be8001e6a990c.cloud.techzone.ibm.com -p 40222
+11	https://console-openshift-console.apps.660cc940a2354c001edff39d.cloud.techzone.ibm.com/	vCoek-ndyoM-Xpcct-cicNH	dLGWKK45	ssh admin@api.660cc940a2354c001edff39d.cloud.techzone.ibm.com -p 40222
+12	https://console-openshift-console.apps.660cd2d57b1030001e6630d8.cloud.techzone.ibm.com/	cMDY6-Fzvub-fsKCx-rvzsy	PzFUtDkf	ssh admin@api.660cd2d57b1030001e6630d8.cloud.techzone.ibm.com -p 40222
+13	https://console-openshift-console.apps.660d7ee1d6d28a001e312a05.cloud.techzone.ibm.com/	Ex8F6-UBz2U-6VSIY-WhPhE	JCrofHmq	ssh admin@api.660d7ee1d6d28a001e312a05.cloud.techzone.ibm.com -p 40222
+14	https://console-openshift-console.apps.660d7fa8d6d28a001e312a06.cloud.techzone.ibm.com/	5ZR3A-mf4Sp-SCbWM-R5BWP	LF0GcYWY	ssh admin@api.660d7fa8d6d28a001e312a06.cloud.techzone.ibm.com -p 40222
+15	https://console-openshift-console.apps.660d800ba2354c001edff4d5.cloud.techzone.ibm.com/	m4URa-pwbzd-zFFma-33GBP	AwSIgSIz	ssh admin@api.660d800ba2354c001edff4d5.cloud.techzone.ibm.com -p 40222
+16	https://console-openshift-console.apps.660f48eb28bcbb001e048990.cloud.techzone.ibm.com/	9YXZc-y5YLs-cxPzx-umTiR	u7m1E27S	ssh admin@api.660f48eb28bcbb001e048990.cloud.techzone.ibm.com -p 40222
+~~~~
