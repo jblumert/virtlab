@@ -19,23 +19,34 @@ https://bookbag-user1.apps.66047385fe791f001e8f732e.cloud.techzone.ibm.com/works
 ~~~~
 oc new-project user1
 
-git clone https://github.com/jeanchlopez/roadshow_ocpvirt_instructions.git
+git clone https://github.com/jeanchlopez/roadshow_ocpvirt_instructions.git --branch ibmtraining
 
 cd roadshow_ocpvirt_instructions
-
-git checkout ibmtraining
-git pull
 
 oc process -f build-template.yaml -p NAME="bookbag" -p GIT_REPO="https://github.com/jeanchlopez/roadshow_ocpvirt_instructions.git" | oc apply -f -
 
 oc start-build bookbag --follow
 
-oc get route <- To get the URL to view the lab content
+oc get route <- To get the URL to view the lab content via your favorite web browser
 ~~~~
 
-# install OpenShift Operator in your cluster from the Operator Catalog
-# Once the operator is installed, create OpenShift Virtualization instance
-select "create hyperconverged"
+# Install and Configure OpenShift Virtualization
+
+Login the OpenShift console.
+
+Go toOperators -> Operator Hub. 
+
+Search for Virtualization.
+
+Install OpenShift Virtualization Operator in your cluster using all default parameters.
+
+Once the operator is installed, click `Create Hyperconverged`.
+
+Use all default parameters.
+
+Once you are prompted to refresh the OpenShift Console, do so.
+
+Change the default storage class to be `ocs-storagecluster-ceph-rbd-virtualization`.
 
 # update your ssh keys
 ~~~~
